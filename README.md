@@ -14,7 +14,7 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
    ```bash
-   git clone https:
+   git clone https://github.com/sommyj/payments-cbs.git
    ```
    
 2. To build and run the application:
