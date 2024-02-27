@@ -44,9 +44,4 @@ public class SecurityConfig {
 				.httpBasic();
 		return httpSecurity.build();
 	}
-
-//	@Autowired
-//	public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-//		auth.userDetailsService(userDetailsManager()).passwordEncoder(passwordEncoder());
-//	}
 }

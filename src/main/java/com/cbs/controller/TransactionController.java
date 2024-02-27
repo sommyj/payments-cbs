@@ -20,8 +20,11 @@ import com.cbs.model.Transaction;
 import com.cbs.service.TransactionService;
 import com.cbs.util.CustomResponseBuilder;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
+
 @RestController
 @RequestMapping("/api")
+@Tag(name = "Transaction", description = "Transaction Endpoints")
 public class TransactionController implements TransactionControllerApi{
 	
 	@Autowired

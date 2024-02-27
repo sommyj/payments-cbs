@@ -13,8 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>payments</name>
-	<description>CBS Middleware Technical Assessment
-Assessment</description>
+	<description>CBS Middleware Technical Assessment</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
